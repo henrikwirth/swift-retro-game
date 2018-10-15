@@ -29,7 +29,9 @@ class GameScene: SKScene {
 //            }
 //        }
         
-        viviWalkingFrames.append(sheet.textureForColumn(column: 1, row: r)!)
+        viviWalkingFrames.append(sheet.textureForColumn(column: 3, row: 4)!)
+        viviWalkingFrames.append(sheet.textureForColumn(column: 4, row: 4)!)
+        viviWalkingFrames.append(sheet.textureForColumn(column: 5, row: 4)!)
 
         
         let firstFrameTexture = viviWalkingFrames[0]
