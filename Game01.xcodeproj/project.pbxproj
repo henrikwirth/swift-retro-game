@@ -15,6 +15,7 @@
 		AFFC7A67217503D5008547B6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFC7A65217503D5008547B6 /* Main.storyboard */; };
 		AFFC7A69217503D5008547B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFFC7A68217503D5008547B6 /* Assets.xcassets */; };
 		AFFC7A6C217503D5008547B6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFFC7A6A217503D5008547B6 /* LaunchScreen.storyboard */; };
+		AFFC7A7421750B9D008547B6 /* SpriteSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFFC7A7321750B9C008547B6 /* SpriteSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		AFFC7A68217503D5008547B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AFFC7A6B217503D5008547B6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AFFC7A6D217503D5008547B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFFC7A7321750B9C008547B6 /* SpriteSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpriteSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				AFFC7A68217503D5008547B6 /* Assets.xcassets */,
 				AFFC7A6A217503D5008547B6 /* LaunchScreen.storyboard */,
 				AFFC7A6D217503D5008547B6 /* Info.plist */,
+				AFFC7A7321750B9C008547B6 /* SpriteSheet.swift */,
 			);
 			path = Game01;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AFFC7A7421750B9D008547B6 /* SpriteSheet.swift in Sources */,
 				AFFC7A62217503D5008547B6 /* GameScene.swift in Sources */,
 				AFFC7A64217503D5008547B6 /* GameViewController.swift in Sources */,
 				AFFC7A5C217503D5008547B6 /* AppDelegate.swift in Sources */,
