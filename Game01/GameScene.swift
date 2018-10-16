@@ -15,7 +15,7 @@ class GameScene: SKScene {
     private var viviWalkingFrames: [SKTexture] = []
     
     override func didMove(to view: SKView) {
-        backgroundColor = .black
+        //backgroundColor = .black
         buildVivi()
         animateVivi()
     }

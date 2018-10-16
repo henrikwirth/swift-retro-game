@@ -16,12 +16,14 @@ class GameViewController: UIViewController {
         super.viewDidLoad()
         if let view = view as? SKView {
             // Create the scene programmatically
-            let scene = GameScene(size: view.bounds.size)
-            scene.scaleMode = .resizeFill
+            if let scene = SKScene(fileNamed: "GameScene") {
+                scene.scaleMode = .aspectFill
+                scene.size = view.bounds.size
+                view.presentScene(scene)
+            }
             view.ignoresSiblingOrder = true
             view.showsFPS = true
             view.showsNodeCount = true
-            view.presentScene(scene)
         }
     }
 
@@ -30,11 +32,7 @@ class GameViewController: UIViewController {
     }
 
     override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
-        if UIDevice.current.userInterfaceIdiom == .phone {
-            return .allButUpsideDown
-        } else {
-            return .all
-        }
+        return .landscape
     }
 
     override func didReceiveMemoryWarning() {
